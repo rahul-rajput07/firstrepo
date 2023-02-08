@@ -1,0 +1,33 @@
+/* Global / Universal Selector */
+* {
+    font-family: 'Lucida Handwriting';
+}
+
+/* HTML / Tag Selectors */
+body {
+    background-color: skyblue;
+}
+
+section {
+    background-color: yellow;
+}
+
+span {
+    background-color: green;
+}
+
+/* Class Selector */
+.sectionTitle {
+    text-decoration: underline;
+    background-color: bisque;
+}
+
+/* ID Selector */
+#specialTitle {
+    text-transform: capitalize;
+    background-color: azure;
+}
+
+#stylePreference {
+    color: aquamarine;
+}

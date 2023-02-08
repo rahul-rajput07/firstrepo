@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Media, Tables & Forms</title>
+</head>
+<body>
+    <audio src="Ajab Si.mp3" controls>Audio</audio>
+
+    <br><br><br>
+    <!-- Tables in HTML -->
+    <table border="15">
+        <caption><b>Game Time</b></caption>
+        <thead>
+            <th>
+                <p>Name</p>
+            </th>
+            <th>
+                <p>Place</p>
+            </th>
+            <th>
+                <p>Animal</p>
+            </th>
+            <th>
+                <p>Thing</p>
+            </th>
+            <th>
+                <p>Marks</p>
+            </th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>
+                    <p>Kohli</p>
+                </td>
+                <td>
+                    <p>Delhi</p>
+                </td>
+                <td>
+                    <p>Dog</p>
+                </td>
+                <td>
+                    <p>Cricket</p>
+                </td>
+                <td align="center">
+                    <p>4</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p>Kohli</p>
+                </td>
+                <td colspan="2" align="center">
+                    <p>Delhi</p>
+                </td>
+                <td>
+                    <p>Cricket</p>
+                </td>
+                <td align="center">
+                    <p>2</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Kohli</p>
+                </td>
+                <td>
+                    <p>Delhi</p>
+                </td>
+                <td rowspan="2" align="center">
+                    <p>Dog</p>
+                </td>
+                <td>
+                    <p>Cricket</p>
+                </td>
+                <td align="center">
+                    <p>9</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Kohli</p>
+                </td>
+                <td>
+                    <p>Delhi</p>
+                </td>
+                <td>
+                    <p>Cricket</p>
+                </td>
+                <td  align="center">
+                    <p>10</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- Forms in HTML -->
+    <form method="GET" action="#" enctype="multipart/form-data">
+        <textarea name="userBio" cols="30" rows="5"></textarea>
+        <br>
+        <hr>
+        <select>
+            <option selected>Mumbai</option>
+            <option>Delhi</option>
+            <option>Chennai</option>
+            <option>Bangalore</option>
+            <option>Pune</option>
+        </select>
+        <hr>
+        <input type="checkbox" name="expertise">Project Management <br>
+        <input type="checkbox" name="expertise">Team Leader <br>
+        <input type="checkbox" name="expertise">Freelancer <br>
+        <hr>
+        <input type="radio" name="paymentMethod"/> Credit Card <br>
+        <input type="radio" name="paymentMethod"/> Debit Card <br>
+        <input type="radio" name="paymentMethod"/> UPI <br>
+        <input type="radio" name="paymentMethod"/> Net Banking <br>
+        <hr>
+        <input type="file"><br><br>
+        Name<input type="text"/><br><br>
+        Password<input type="password"/> <br><br>
+        Number<input type="number"/> <br><br>
+        Email<input type="email"/> <br><br>
+        Date<input type="date"/> <br><br>
+        Time<input type="time"/> <br><br>
+        Color<input type="color"/> <br><br>
+        <input type="reset"/> 
+        <input type="submit"/> <br><br>
+    </form>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>

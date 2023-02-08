@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cascading Style Sheets</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Global / Universal Selector */
+        * {
+            font-family: 'Lucida Handwriting';
+        }
+        /* HTML / Tag Selectors */
+        body {
+            background-color: skyblue;
+        }
+        section {
+            background-color: yellow;
+        }
+        span {
+            background-color: green;
+            font-family: 'Montserrat';
+        }
+        h1 {
+            font-family: 'Kaushan Script';
+            font-size: 50px;
+            font-weight: 900;
+            font-style: italic;
+            background-color:rgb(26, 15, 127);
+            color: #93e70be4;
+        }
+        /* Class Selector */
+        .sectionTitle {
+            text-decoration: underline;
+            /* background-color: bisque; */
+        }
+
+        /* ID Selector */
+        #specialTitle {
+            text-transform: capitalize;
+            /* background-color: azure; */
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1 class="sectionTitle">This is a heading</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia fuga quo cupiditate, ipsum nisi velit explicabo eum dolore optio tenetur reiciendis ab molestias laudantium?<span>Numquam voluptatem fugit aliquid eius soluta.</span></p>
+    </section>
+    <section>
+        <h2 class="sectionTitle">This is a heading</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia fuga quo cupiditate, ipsum nisi velit explicabo eum dolore optio tenetur reiciendis ab molestias laudantium?<span>Numquam voluptatem fugit aliquid eius soluta.</span></p>
+    </section>
+    <section>
+        <h1 id="specialTitle">This is a heading</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia fuga quo cupiditate, ipsum nisi velit explicabo eum dolore optio tenetur reiciendis ab molestias laudantium?<span>Numquam voluptatem fugit aliquid eius soluta.</span></p>
+    </section>
+
+    
+</body>
+</html>

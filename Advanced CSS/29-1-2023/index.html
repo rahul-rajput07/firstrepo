@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        img {
+            width: 100px;
+            position: fixed;
+            bottom: 5%;
+            right: 3%;
+        }
+        /* Extra small devices (phones, 600px and down) */
+        @media only screen and (max-width: 600px) {
+            p {
+                background-color: yellow;
+            }
+        }
+
+        /* Small devices (portrait tablets and large phones, 600px and up) */
+        @media only screen and (min-width: 600px) {
+            p {
+                background-color: green;
+            }
+        }
+
+        /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (min-width: 768px) {
+            p {
+                background-color: pink;
+            }   
+            img {
+                display: none;
+            }
+        }
+
+        /* Large devices (laptops/desktops, 992px and up) */
+        @media only screen and (min-width: 992px) {
+            p {
+                background-color: royalblue;
+            }
+            img {
+                display: none;
+            }      
+        }
+
+        /* Extra large devices (large laptops and desktops, 1200px and up) */
+        @media only screen and (min-width: 1200px) {
+            p {
+                background-color: crimson;
+            }
+            img {
+                display: none;
+            }
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus aliquid officiis veniam repellat, enim placeat aperiam quae eius sapiente mollitia, praesentium consequuntur in atque magni? Harum rerum optio rem consequatur!</p>
+    <img src="https://t3.ftcdn.net/jpg/05/01/71/78/360_F_501717879_7RWecs3TL0zVJJXd7QAWzn39Z2CbEr4C.jpg" alt="">
+</body>
+</html>

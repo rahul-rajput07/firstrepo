@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grid & Flexbox</title>
+    <style>
+
+    body {
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    #wrapper {
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+
+    #rightPart {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #logo {
+        width: 40px;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+
+    #courseProgress {
+        width: 40px;
+        height: 40px;
+        margin-left: 300px;
+        margin-top: 25px;
+    }
+
+    #courseIcon {
+        width: 40px;
+        height: 40px;
+        margin: 15px;
+        margin-top: 20px;
+    }
+
+    h4 {
+        margin-top: 35px;
+    }
+
+    #menuItems {
+        margin: 0;
+        padding: 10px;
+    }
+    a {
+        text-decoration: none;
+        color: white; 
+    }
+
+    li {
+        list-style: none;
+        padding: 5px;
+        margin-left: 10px;
+    }
+
+    #leftMenu {
+        background-color: black;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+
+    #rightPart {
+        background-color: bisque;
+        padding: 10px;
+        text-align: center;
+        border-radius: 10px;
+        align-items: center;
+        /* height: 100px; */
+    }
+    </style>
+</head>
+<body>
+    <section id="wrapper">
+        <aside id="leftMenu">
+        <img id="logo" src="https://cdn-icons-png.flaticon.com/512/4053/4053204.png" alt="">
+        <ul id="menuItems">
+            <li><a href="">Dashboard</a></li>
+            <li><a href="">Courses</a></li>
+            <li><a href="">Sessions</a></li>
+        </ul>
+        </aside>
+        <div id="rightPart">
+            <img id="courseIcon" src="https://cdn-icons-png.flaticon.com/128/1584/1584911.png" alt="">
+            <h4>Software Programmer Professional Certification Program</h4>
+            <img id="courseProgress" src="https://cdn-icons-png.flaticon.com/512/5698/5698546.png" alt="">
+        </div>
+    </section>                   
+</body>
+</html>
